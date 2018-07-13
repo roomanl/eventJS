@@ -63,15 +63,3 @@ window.addEventListener("storage", function(event){
     }
 });
 
-
-Evt.addEvent('addUser',function(key,data){
-    console.log(data);
-});
-Evt.addEvent('deleUser',function(key,data){
-    console.log(data);
-});
-
-Evt.sendEvent('addUser','新增了一个用户');
-
-Evt.sendEvent('deleUser','删除了一个用户');
-
